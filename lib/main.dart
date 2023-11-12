@@ -5,6 +5,7 @@ import 'todo_service.dart';
 
 void main() async {
 
+
   await Hive.initFlutter(); // Initialize Hive data base
   Hive.registerAdapter(TodoItemAdapter());
   runApp(MyApp());
